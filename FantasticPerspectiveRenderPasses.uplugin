@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "ArchVis Camera (Fantastic Perspective) Movie Render Passes",
+	"Description": "Plugin that allows you to create fantastic viewport projection in Movie Render Queue",
+	"Category": "Rendering",
+	"CreatedBy": "Aleksandr Krotov <san.crot@yandex.ru>",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/07b9891ba6454ec08680c3bee5e6aed4",
+	"SupportURL": "",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FantasticPerspectiveRenderPasses",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "FantasticPerspective",
+			"Enabled": true
+		}
+	]
+}
